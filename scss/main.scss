@@ -2,11 +2,14 @@
 @import 'menu';
 @import 'mobile';
 
-$primary-color: #444;
-$secondary-color: #eece1a;
-$white: #fff;
+
+
 $show-home-image: true;
+$show-project-image: true;
+$show-innovation-imahe: true;
 $home-image: url(../img/background.jpg);
+$project-image: url(../img/backgroundProject.jpg);
+$innovation-image: url(../img/backgroundInnovation.jpg);
 $background-opacity:0.7;
 
 @mixin easeOut{
@@ -19,6 +22,8 @@ $background-opacity:0.7;
             background: $home-image;
             background-attachment: fixed;
             background-size: cover;
+            
+        
 
             &:after{
                 content:'';
@@ -33,6 +38,8 @@ $background-opacity:0.7;
         }
     }
 }
+
+
 //Global
 *{
     box-sizing: border-box;
