@@ -1,7 +1,7 @@
 {
   "name": "portfolio",
   "version": "0.4",
-  "latest changes":"Added htAcces, added package.json, added project.html, updates scss, added more media"
+  "latest changes": "Added htAcces, added package.json, added project.html, updates scss, added more media",
   "description": "Portfolio Driek van der Meulen",
   "main": "index.js",
   "scripts": {
@@ -10,6 +10,7 @@
   "author": "Driek van der Meulen | Alias: D22",
   "license": "ISC",
   "dependencies": {
-    "node-sass": "^4.13.0"
+    "node-sass": "^4.13.0",
+    "sass": "^1.23.7"
   }
 }
