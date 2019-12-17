@@ -58,7 +58,7 @@
     .menu .nav-item.show {
       transform: translate3d(0, 0, 0); }
     .menu .nav-item.current > a {
-      color: #00664d; }
+      color: #0066ff; }
   .menu .nav-link {
     display: inline-block;
     position: relative;
@@ -70,7 +70,7 @@
     text-decoration: none;
     transition: all 0.5s ease-out; }
     .menu .nav-link:hover {
-      color: #00664d; }
+      color: #0066ff; }
 
 .nav-item:nth-child(1) {
   transition-delay: 0.15s; }
@@ -94,11 +94,13 @@
     main .lg-heading {
       line-height: 1;
       scroll-margin-bottom: 1rem; }
-  ul.menu-nav, div.menu-branding {
+  ul.menu-nav,
+  div.menu-branding {
     float: none;
     width: 100%;
     min-height: 0; }
-    ul.menu-nav.show, div.menu-branding.show {
+    ul.menu-nav.show,
+    div.menu-branding.show {
       transform: translate3d(0, 0, 0); }
   .menu-nav {
     height: 75vh;
@@ -136,12 +138,18 @@ body {
       z-index: -1;
       background: rgba(68, 68, 68, 0.7); }
 
-h1, h2, h3 {
+h1,
+h2,
+h3 {
   margin: 0;
   font-weight: 400; }
-  h1.lg-heading, h2.lg-heading, h3.lg-heading {
+  h1.lg-heading,
+  h2.lg-heading,
+  h3.lg-heading {
     font-size: 6rem; }
-  h1.sm-heading, h2.sm-heading, h3.sm-heading {
+  h1.sm-heading,
+  h2.sm-heading,
+  h3.sm-heading {
     margin-bottom: 2rem;
     padding: 0.2rem 1rem;
     background: rgba(73, 73, 73, 0.5); }
@@ -156,7 +164,7 @@ header {
   width: 100%; }
 
 .text-secondary {
-  color: #00664d; }
+  color: #0066ff; }
 
 main {
   padding: 4rem;
@@ -166,7 +174,7 @@ main {
     main .icons a {
       padding: 0.4rem; }
       main .icons a:hover {
-        color: #00664d;
+        color: #0066ff;
         transition: all 0.5s ease-out; }
   main#home {
     overflow: hidden; }
