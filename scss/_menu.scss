@@ -14,25 +14,23 @@
     background: set-text-color($primary-color);
     @include easeOut;
   }
-// yhu9bhubih9u
 
-  //Rotate Into X With Menu Lines
+  // Rotate Into X With Menu Lines
   &.close {
     transform: rotate(180deg);
 
     .btn-line {
-
-      //Line 1 - Rotate
+      // Line 1 - Rotate
       &:nth-child(1) {
         transform: rotate(45deg) translate(5px, 5px);
       }
 
-      //Line 2 - Hide
+      // Line 2 - Hide
       &:nth-child(2) {
         opacity: 0;
       }
 
-      //Line 3 - Rotate
+      // Line 3 - Rotate
       &:nth-child(3) {
         transform: rotate(-45deg) translate(7px, -6px);
       }
@@ -88,6 +86,15 @@
       // Slide in from bottom
       transform: translate3d(0, 0, 0);
     }
+
+    .portrait {
+      width: 250px;
+      height: 250px;
+      background: url('../img/portrait.jpg');
+      background-size: cover;
+      border-radius: 50%;
+      border: solid 3px $secondary-color;
+    }
   }
 
   .nav-item {
@@ -99,7 +106,7 @@
       transform: translate3d(0, 0, 0);
     }
 
-    &.current>a {
+    &.current > a {
       color: $secondary-color;
     }
   }
@@ -111,7 +118,7 @@
     text-transform: uppercase;
     padding: 1rem 0;
     font-weight: 300;
-    color: $white;
+    color: set-text-color($primary-color);
     text-decoration: none;
     @include easeOut;
 
@@ -121,9 +128,9 @@
   }
 }
 
-//Delay each nav ite slide by 0.1s
+// Delay each nav item slide by 0.1s
 @for $x from 1 through 5 {
   .nav-item:nth-child(#{$x}) {
-    transition-delay: $x * 0.15s;
+    transition-delay: $x * 0.1s;
   }
 }
